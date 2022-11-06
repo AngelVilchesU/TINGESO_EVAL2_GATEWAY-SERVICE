@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: TINGESO_EVAL2_GATEWAY-SERVICE
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  http:
+    multipart:
+      enable: true
