@@ -1,10 +1,9 @@
 spring:
   application:
-    name: TINGESO_EVAL2_GATEWAY-SERVICE
+    name: gateway-service
   cloud:
     config:
       enabled: true
       uri: http://localhost:8081
-  http:
-    multipart:
-      enable: true
+
+
